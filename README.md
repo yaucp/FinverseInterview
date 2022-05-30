@@ -1,20 +1,26 @@
-# FinverseInterview
+# How to run project locally with Django
 
 1. Clone the repo. 
 
-`$ git clone https://github.com/yaucp/FinverseInterview\n
-$ cd FinverseInterview`
+```
+$ git clone https://github.com/yaucp/FinverseInterview
+$ cd FinverseInterview
+```
 
 2. Start a new virtual environment with venv
-`$ venv {name}
-$ source venv/bin/activate`
+```
+$ venv {name}
+$ source venv/bin/activate
+```
 
 3. Install djano
 `$ pip install django`
 
 4. Make migrations
-`$ python3 manage.py makemigrations
-$ python3 manage.py migrate`
+```
+$ python3 manage.py makemigrations
+$ python3 manage.py migrate
+```
 
 5. Create a new superuser
 `$ python3 manage.py createsuperuser`
