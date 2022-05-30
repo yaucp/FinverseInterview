@@ -14,16 +14,16 @@ $ source myvenv/bin/activate
 ```
 
 3. Install djano
-`$ pip install django`
+`(myvenv)$ pip install django`
 
 4. Make migrations
 ```
-$ python3 manage.py makemigrations
-$ python3 manage.py migrate
+(myvenv) $ python3 manage.py makemigrations
+(myvenv) $ python3 manage.py migrate
 ```
 
 5. Create a new superuser
-`$ python3 manage.py createsuperuser`
+`(myvenv) $ python3 manage.py createsuperuser`
 
 6. Run server with port 4000
-`$ python3 manage.py runserver 4000`
+`(myvenv) $ python3 manage.py runserver 4000`
