@@ -2,7 +2,7 @@
 
 1. Clone the repo. 
 
-`$ git clone https://github.com/yaucp/FinverseInterview
+`$ git clone https://github.com/yaucp/FinverseInterview\n
 $ cd FinverseInterview`
 
 2. Start a new virtual environment with venv
