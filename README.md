@@ -9,8 +9,8 @@ $ cd FinverseInterview
 
 2. Start a new virtual environment with venv
 ```
-$ venv {name}
-$ source venv/bin/activate
+$ python3 -m venv myvenv
+$ source myvenv/bin/activate
 ```
 
 3. Install djano
